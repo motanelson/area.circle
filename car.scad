@@ -66,12 +66,7 @@ module roda() {
         //rotate([90, 0, 0])
         //cylinder(h=largura_roda + 1, r=diametro_roda/4, center=true, $fn=30);
         
-        // Detalhes do aro
-        for(i = [0:5]) {
-            rotate([0, 0, i * 60])
-            translate([diametro_roda/3, 0, 0])
-            cube([diametro_roda/5, 3, largura_roda + 2], center=true);
-        }
+        
     }
 }
 
