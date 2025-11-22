@@ -188,7 +188,7 @@ void kernel_main(uint32_t r0, uint32_t r1, uint32_t atags)
         char color=0xf;
 	
 	uart_init(2);
-	uart_puts("\033c\033[43;30m\nhello world....!\r\n");
+	uart_puts("\033[43;30m\nhello world....!\r\n");
 	
 	while (1)
 		uart_putc(uart_getc());
