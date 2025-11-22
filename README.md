@@ -1,2 +1,1 @@
-# scad.car
-toy car to printer 3d
+operation system for raspberry pi
